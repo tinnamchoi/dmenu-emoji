@@ -15,7 +15,7 @@ case "$1" in
   "copy")
     input=$(tee)
     if [ ! -z "$input" ]; then
-      emoji=${input: -1}
+      emoji=$(echo $input | sed -E 's/.*\((.*)\)/\1/')
       echo -n "$emoji" | xclip -selection c
       command -v notify-send > /dev/null && notify-send -t 200 "$emoji copied!"
     fi
