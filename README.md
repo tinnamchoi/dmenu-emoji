@@ -1,6 +1,4 @@
-# Note
-
-I no longer mantain this repository (or use this script). It works for all I know, but I'm using something else so I no longer mantain it. Feel free to keep using it if it works for you, fork it if you need to fix anything, or consider one of the alternatives (see below). For this reasons this repo is archived and read-only.
+Actively maintained fork of [porras/dmenu-emoji](https://github.com/porras/dmenu-emoji)
 
 # dmenu-emoji 💃
 
